@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Nwmn28onslQ=",
+  "dgSpecHash": "kwtu25EzOjk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Öznur\\source\\repos\\BookProject\\BookProject.Api\\BookProject.Api.csproj",
+  "projectFilePath": "C:\\Users\\Öznur\\OneDrive\\Desktop\\BookProject\\BookProject.Api\\BookProject.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Öznur\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Öznur\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -19,11 +19,14 @@
     "C:\\Users\\Öznur\\.nuget\\packages\\microsoft.codeanalysis.workspaces.msbuild\\4.8.0\\microsoft.codeanalysis.workspaces.msbuild.4.8.0.nupkg.sha512",
     "C:\\Users\\Öznur\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.6\\microsoft.data.sqlclient.5.1.6.nupkg.sha512",
     "C:\\Users\\Öznur\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.1.1\\microsoft.data.sqlclient.sni.runtime.5.1.1.nupkg.sha512",
+    "C:\\Users\\Öznur\\.nuget\\packages\\microsoft.data.sqlite.core\\9.0.12\\microsoft.data.sqlite.core.9.0.12.nupkg.sha512",
     "C:\\Users\\Öznur\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.12\\microsoft.entityframeworkcore.9.0.12.nupkg.sha512",
     "C:\\Users\\Öznur\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.12\\microsoft.entityframeworkcore.abstractions.9.0.12.nupkg.sha512",
     "C:\\Users\\Öznur\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.12\\microsoft.entityframeworkcore.analyzers.9.0.12.nupkg.sha512",
     "C:\\Users\\Öznur\\.nuget\\packages\\microsoft.entityframeworkcore.design\\9.0.12\\microsoft.entityframeworkcore.design.9.0.12.nupkg.sha512",
     "C:\\Users\\Öznur\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\9.0.12\\microsoft.entityframeworkcore.relational.9.0.12.nupkg.sha512",
+    "C:\\Users\\Öznur\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\9.0.12\\microsoft.entityframeworkcore.sqlite.9.0.12.nupkg.sha512",
+    "C:\\Users\\Öznur\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\9.0.12\\microsoft.entityframeworkcore.sqlite.core.9.0.12.nupkg.sha512",
     "C:\\Users\\Öznur\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\9.0.0\\microsoft.entityframeworkcore.sqlserver.9.0.0.nupkg.sha512",
     "C:\\Users\\Öznur\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\9.0.12\\microsoft.entityframeworkcore.tools.9.0.12.nupkg.sha512",
     "C:\\Users\\Öznur\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
@@ -42,6 +45,10 @@
     "C:\\Users\\Öznur\\.nuget\\packages\\mono.texttemplating\\3.0.0\\mono.texttemplating.3.0.0.nupkg.sha512",
     "C:\\Users\\Öznur\\.nuget\\packages\\mysqlconnector\\2.4.0\\mysqlconnector.2.4.0.nupkg.sha512",
     "C:\\Users\\Öznur\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\9.0.0\\pomelo.entityframeworkcore.mysql.9.0.0.nupkg.sha512",
+    "C:\\Users\\Öznur\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.10\\sqlitepclraw.bundle_e_sqlite3.2.1.10.nupkg.sha512",
+    "C:\\Users\\Öznur\\.nuget\\packages\\sqlitepclraw.core\\2.1.10\\sqlitepclraw.core.2.1.10.nupkg.sha512",
+    "C:\\Users\\Öznur\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.10\\sqlitepclraw.lib.e_sqlite3.2.1.10.nupkg.sha512",
+    "C:\\Users\\Öznur\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.10\\sqlitepclraw.provider.e_sqlite3.2.1.10.nupkg.sha512",
     "C:\\Users\\Öznur\\.nuget\\packages\\swashbuckle.aspnetcore\\10.0.1\\swashbuckle.aspnetcore.10.0.1.nupkg.sha512",
     "C:\\Users\\Öznur\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.0.1\\swashbuckle.aspnetcore.swagger.10.0.1.nupkg.sha512",
     "C:\\Users\\Öznur\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.0.1\\swashbuckle.aspnetcore.swaggergen.10.0.1.nupkg.sha512",
@@ -63,5 +70,18 @@
     "C:\\Users\\Öznur\\.nuget\\packages\\system.security.permissions\\6.0.0\\system.security.permissions.6.0.0.nupkg.sha512",
     "C:\\Users\\Öznur\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'SQLitePCLRaw.lib.e_sqlite3' 2.1.10 has a known high severity vulnerability, https://github.com/advisories/GHSA-2m69-gcr7-jv3q",
+      "projectPath": "C:\\Users\\Öznur\\OneDrive\\Desktop\\BookProject\\BookProject.Api\\BookProject.Api.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Öznur\\OneDrive\\Desktop\\BookProject\\BookProject.Api\\BookProject.Api.csproj",
+      "libraryId": "SQLitePCLRaw.lib.e_sqlite3",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }

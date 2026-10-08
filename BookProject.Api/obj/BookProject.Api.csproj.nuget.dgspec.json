@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Öznur\\source\\repos\\BookProject\\BookProject.Api\\BookProject.Api.csproj": {}
+    "C:\\Users\\Öznur\\OneDrive\\Desktop\\BookProject\\BookProject.Api\\BookProject.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Öznur\\source\\repos\\BookProject\\BookProject.Api\\BookProject.Api.csproj": {
+    "C:\\Users\\Öznur\\OneDrive\\Desktop\\BookProject\\BookProject.Api\\BookProject.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Öznur\\source\\repos\\BookProject\\BookProject.Api\\BookProject.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Öznur\\OneDrive\\Desktop\\BookProject\\BookProject.Api\\BookProject.Api.csproj",
         "projectName": "BookProject.Api",
-        "projectPath": "C:\\Users\\Öznur\\source\\repos\\BookProject\\BookProject.Api\\BookProject.Api.csproj",
+        "projectPath": "C:\\Users\\Öznur\\OneDrive\\Desktop\\BookProject\\BookProject.Api\\BookProject.Api.csproj",
         "packagesPath": "C:\\Users\\Öznur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Öznur\\source\\repos\\BookProject\\BookProject.Api\\obj\\",
+        "outputPath": "C:\\Users\\Öznur\\OneDrive\\Desktop\\BookProject\\BookProject.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,6 +69,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.12, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
